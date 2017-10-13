@@ -1,0 +1,14 @@
+## Switching 'tree' for 'ls'
+## Remember this will not work until 'sudo apt install tree (or similar) is installed ##
+## Still need to figure out how to just have tree totally take over, but this is a great start...
+#alias gindr="tree -f | grep"
+alias tree="tree -Cphu --ignore-case"
+alias ls1="tree -L 1"
+alias gind="ls | grep"
+alias gindr="tree -Cphu --ignore-case | grep "
+
+alias ls2="tree -L 2"
+alias ls3="tree -L 3"
+alias ls4="tree -L 4"
+alias ls5="tree -L 5"
+alias lsn="tree -L " #then write in number of sub-dirs

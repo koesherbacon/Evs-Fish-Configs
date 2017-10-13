@@ -1,0 +1,5 @@
+NOTE: I have alraedy changed all references in config.fish to 'ev' to 'celes' due to changing usernames!
+
+Additionally, since I'm using Ubuntu-Budgie for now, I have also changed 'nemo'/'caja' to 'nautilus'
+
+Finally, all 'yaourt' have been #'d and all 'apt' have been un-#'d
